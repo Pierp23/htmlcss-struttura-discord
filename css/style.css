@@ -11,15 +11,13 @@ body{
 }
 
 /* HEADER */
-
 .container-header-1{
     justify-content: center;
     display: flex;
 }
 
 nav{
-    width: calc(100% - 30%);
-    background-color: orange;
+    width: calc(100% - 25%);
     margin: 10px 0;
     display: flex;
 }
@@ -31,7 +29,7 @@ nav{
 }
 
 #box2{
-    width: calc(100% - 40%);
+    width: calc(100% - 30%);
     text-align: center;
 }
 
@@ -48,13 +46,13 @@ nav{
 .header-box-pink{
     content: "";
     margin: 20px 0;
+    border: 1px dashed black;
     width: calc(100% - 50%);
-    height: 200px;
+    height: 250px;
 }
 
 
 /* MAIN */
-
 .container-main{
     display: flex;
 }
@@ -88,8 +86,10 @@ nav{
 
 #box-main-end{
     content: none;
+    border: 1px dashed black;
     height: 600px;
 }
+
 
 /* FOOTER */
 .container-footer{
@@ -98,7 +98,7 @@ nav{
 
 .box-footer{
     display: flex;    
-    margin: 5px auto;
+    margin: 10px auto;
     margin-bottom: 20px;
     width: calc(100% - 25%);
     height: 350px;
@@ -151,6 +151,10 @@ header > .container-header-2{
 
 .header-box-pink{
     background-color: #EE82EE;
+}
+
+nav{
+    background-color: orange;
 }
 
 #box-main-1{
